@@ -60,4 +60,9 @@ public class PersonRepository
 
         return new List<Person>();
     }
+
+    internal async Task DeleteAllPeopleAsync()
+    {
+        throw new NotImplementedException();
+    }
 }
