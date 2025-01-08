@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:model="clr-namespace:People.Models"
              x:Class="People.MainPage" 
-             BackgroundColor="{DynamicResource Light}">
+             BackgroundColor="#6F4E37">
 
     <Grid Padding="5" RowSpacing="5" ColumnSpacing="5"
           RowDefinitions="Auto,Auto,Auto,Auto,*">
@@ -16,7 +16,7 @@
             Clicked="OnNewButtonClicked" />
 
         <Label x:Name="statusMessage"
-           TextColor="{StaticResource Primary}"
+           TextColor="White"
            Grid.Row="2" />
 
         <Button Text="Get All People"
@@ -27,12 +27,14 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="model:Person">
                     <Grid ColumnDefinitions="*,2*">
-                        <Label Text="{Binding Id}" TextColor="{StaticResource Primary}"/>
-                        <Label Grid.Column="1" Text="{Binding Name}" TextColor="{StaticResource Primary}"/>
+                        <Label Text="{Binding Id}" TextColor="White"/>
+                        <Label Grid.Column="1" Text="{Binding Name}" TextColor="White"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+
+        <Image Source="imagen6.png" Grid.Row="5" HorizontalOptions="End" VerticalOptions="Center" />
 
     </Grid>
 

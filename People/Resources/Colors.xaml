@@ -4,14 +4,14 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
 
-    <Color x:Key="Primary">#512BD4</Color>
-    <Color x:Key="Light">#DFD8F7</Color>
-    <Color x:Key="Dark">#2B0B98</Color>
+    <Color x:Key="Primary">#6F4E37</Color>
+    <Color x:Key="Light">#F5F5DC</Color>
+    <Color x:Key="Dark">#3B2F2F</Color>
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
-    <Color x:Key="LightGray">#E5E5E1</Color>
-    <Color x:Key="MidGray">#969696</Color>
-    <Color x:Key="DarkGray">#505050</Color>
+    <Color x:Key="LightGray">#D3D3D3</Color>
+    <Color x:Key="MidGray">#A9A9A9</Color>
+    <Color x:Key="DarkGray">#696969</Color>
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}"/>
     <SolidColorBrush x:Key="LightBrush" Color="{StaticResource Light}"/>
     <SolidColorBrush x:Key="DarkBrush" Color="{StaticResource Dark}"/>
